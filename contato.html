@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="horarios.css">
+    <style>
+        table thead th {
+            background-color: pink;
+            color: black;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: pink;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="menu">
+
+            <ul>
+                <li><a href="#home">Página Principal</a></li>
+                <li><a href="#sobre">Sobre a clinica</a></li>
+                <li><a href="#horario">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <audio controls autoplay class="musica" src="../4.Desafio HTML/Sia - Beautiful People Say.mp3">
+            </audio>
+        </div>
+
+        <div class="main">
+            <div class="header" align="center">
+                <img width="100%" height="200px" src="contato.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h1>Fale conosco:</h1>
+
+                <form action="" onsubmit="alert('Relatório enviado');">
+                    <label> Nome Completo:</label><input type="text" name="name"><br>                    
+                    <label>E-mail:<label> <input type="email"><br>
+                    <label>Assunto:</label><input type="text" name="name"><br>  
+                    <label>Mensagem:<label> <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+                    <label>Confirmou seus dados?<label> <input type="checkbox">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar tudo</button>
+                </form>
+            </div>
+
+            <div class="footer">
+                <h3>Endereço: Rua da beleza, 212, Centro, São Paulo - Capital</h3>
+                <h3>E-mail: tudoincluso@beleza.com.br</h3>
+                <h3>Telefone: (11) 123456789</h3>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
